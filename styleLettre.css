@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "titre";
+    src: url(./police/merry_christmas/MerryChristmasStar.ttf);
+}
+
+body{
+    background-color: #FFEAC5;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+   
+    
+}
+
+li a img {
+    width: 5em;
+    padding: 2em;
+    border-radius: 50px;
+    
+}
+
+main{
+    background-color: white;
+    padding: 1em;
+    border: solid black 5px;
+    border-radius: 50px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}

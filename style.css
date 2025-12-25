@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "titre";
+    src: url(./police/merry_christmas/MerryChristmasStar.ttf);
+}
+
+body{
+    background-color: #FFEAC5;
+}
+
+h1{
+    font-family: "titre";
+    font-size: 500%;
+    text-align: center;
+    color: red;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+li a img {
+    width: 10em;
+    padding: 2em;
+    border-radius: 50px;
+   
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+img.image{
+    width: 100em;
+}
